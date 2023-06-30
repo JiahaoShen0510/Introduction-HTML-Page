@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form </title>
+</head>
+
+
+<body>
+    <header>
+     <h1 style="color:aquamarine"> FORM </h1>
+     <h3> <a href="index.html"> Turn Back </a> </h3>
+    </header>
+
+    <section>
+        <form action="form.html" method="get">
+            <p>
+              <label for="username"> Enter the Username </label>
+              <input id="username" type="text" name="username" placeholder="username">
+              <input type="color" name="color">
+            </p>
+
+            <p>
+              <label for="password">Enter the Password </label>
+              <input id="password" type="password" minlength="5" name="password" placeholder="password">
+            </p>
+
+            <p>
+                <label for="email">Enter the E-mail</label>
+                <input id="email" type="email" name="email" placeholder="email">
+             </p>
+
+            <p>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male"> Male </label>
+
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female"> Female </label>
+
+                <input type="radio" id="unknown" name="gender" value="unknown">
+                <label for="unknown"> Unknown </label>
+
+            </p>
+
+            <p>
+               <label for="birthday">Enter the Birthday</label>
+               <input id="birthday" type="date" name="birthday">
+            </p>
+
+            <p>
+                <label for="cat">Pick Up Your Favorite Cat Type </label>
+                <select name="cat" id="cat">
+                    <option value="">Please Pick one </option>
+                    <option value="black and white"> Black and White </option>
+                    <option value="orange"> Orange </option>
+                    <option value="white"> White </option>
+                    <option value="black"> Black </option>
+                    <option value="calico"> Calico </option>
+                    <option value="blue"> Blue </option>
+                </select>
+            </p>
+
+            <p>
+                <label for="cheese"> Your Cheese Level </label>
+                <input id="cheese" type="range" min="1" max="100" value="50" name="cheese">
+            </p>
+
+            <p>
+                <label for="request">Write Your Request</label>
+                <textarea id="request" rows="10"></textarea>
+            </p>
+
+            <p>
+                <label for="check"> Please Check If You Agree to Submit</label>
+                <input id="check" type="checkbox" name="check">
+            </p>
+
+            <p>
+                <label for="submit"> Submit </label>
+                <input id="submit" type="submit" value="submit">
+            </p>
+        </form>
+      
+
+    </section>
+</body>
+</html>
